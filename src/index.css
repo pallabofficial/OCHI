@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @font-face {
+    font-family: display;
+    src: url(PlayfairDisplay-Regular.ttf);
+} */
+#main{
+    font-family: "Roboto", serif;
+}
