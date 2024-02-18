@@ -3,7 +3,7 @@ import { FaLongArrowAltUp } from "react-icons/fa";
 
 let banner = () => {
   return (
-    <div className="w-full min-h-screen bg-black pt-[0.1vh]">
+    <div className="w-full min-h-screen pt-[0.1vh]">
       <div id="banner-text" className="mt-[25vh] px-[3vw] ">
         {['WE CREATE', 'EYE OPENING', 'PRESENTATIONS'].map((value,index)=>{
           return (    
@@ -17,7 +17,7 @@ let banner = () => {
           )})}      
       </div>
 
-      <div className="border-t-[1px] mt-[15vh] border-white flex justify-between items-center px-[3vw] py-[2vh]"   id="banner-footer">
+      <div className="border-t-[1px] mt-[15vh] mb-[5vh] border-[#cbd5e1] flex justify-between items-center px-[3vw] py-[2vh]"   id="banner-footer">
         {["For public and private companies", "From the first pitch to IPO"].map((item, index)=>(
           <a key={index} className="text-[1.3vw] tracking-[0vw] leading-none text-white" >{item}</a>
         ))}
