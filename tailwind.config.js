@@ -10,6 +10,8 @@ export default {
       'Playfair Display':['display', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 

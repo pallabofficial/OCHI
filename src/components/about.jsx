@@ -15,7 +15,7 @@ let  about = () => {
             </div>
           </div>
           <div id="about-img" className="w-1/2 h-[80vh] px-[3vw] ">
-            <div className="w-full h-full bg-[#6d7e2f] rounded-[20px]"></div>
+            <div className="w-full h-full bg-[#6d7e2f] rounded-[20px] overflow-hidden"><img className="object-cover w-full h-full" src="../public/images/about-img.jpg" alt="" /></div>
           </div>
         </div>
     </div>

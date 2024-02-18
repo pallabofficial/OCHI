@@ -16,10 +16,10 @@ let eyes = () => {
   });
 
   return (
-    <div className="w-full h-screen flex justify-center items-center">
-      <div
+    <div className="w-full h-screen flex justify-center items-center overflow-hidden">
+      <div data-scroll data-scroll-speed="-.5" 
         id="play-area"
-        className="w-[60%] h-[70%] bg-[#125A4F] flex justify-center gap-[5vw] pt-[5vh]"
+        className="w-[80%] h-[90%] bg-[#125A4F] flex justify-center items-center gap-[5vw] pt-[5vh]"
       >
         <div className="circular-eyes w-[15vw] h-[15vw] bg-[white] rounded-full flex justify-center items-center">
           <div className="relative eye-pupil w-[8vw] h-[8vw] bg-[black] rounded-full flex justify-center items-center">

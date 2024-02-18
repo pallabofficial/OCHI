@@ -5,6 +5,41 @@
     font-family: display;
     src: url(PlayfairDisplay-Regular.ttf);
 } */
-#main{
-    font-family: "Roboto", serif;
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+  }
+#main {
+  font-family: "Roboto", serif;
 }
+
+
+  
+@keyframes moveTop {
+  from {
+    margin-top: 50vh;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0vh;
+    opacity: 1;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    margin-top: 0;
+    opacity: 1;
+  }
+  to {
+    margin-top: 50vh;
+    opacity: 0;
+  }
+}
+
+.project-img-div:hover .project-name-display {
+  /* animation-name: moveTop; */
+  animation: moveTop 0.5s forwards;
+}
+.project-img-div:not(:hover) .project-name-display {
+    animation: moveDown 0.5s forwards;
+  }
