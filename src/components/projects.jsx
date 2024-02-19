@@ -19,10 +19,10 @@ let projects = () => {
 
       <div id="projects-showcase" className="w-[98%] flex flex-wrap justify-between  ">
         {[
-          { title: "FYDE", image: "../public/images/project-1-img.jpg", viewProject: "", about: "" },
-          { title: "VICE", image: "../public/images/project-2-img.jpg", viewProject: "", about: "" },
-          { title: "TRAWA", image: "../public/images/project-3-img.jpg", viewProject: "", about: "" },
-          { title: "PREMIUM BLEND", image: "../public/images/project-4-img.jpg", viewProject: "", about: "" },
+          { title: "FYDE", image: "/OCHI/images/project-1-img.jpg", viewProject: "", about: "" },
+          { title: "VICE", image: "/OCHI/images/project-2-img.jpg", viewProject: "", about: "" },
+          { title: "TRAWA", image: "/OCHI/images/project-3-img.jpg", viewProject: "", about: "" },
+          { title: "PREMIUM BLEND", image: "/OCHI/images/project-4-img.jpg", viewProject: "", about: "" },
         ].map((project, projectNo) => (
           
           <div key={projectNo} id="project-card" className="w-[49%] flex-col justify-between items-between  gap-[10vw] ">

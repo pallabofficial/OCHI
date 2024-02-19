@@ -19,7 +19,7 @@ let banner = () => {
               {index===1 && (<motion.div initial={{width:0}}
                animate={{width:"10vw"}}
                transition={{ease: [0.76,0,0.24,1], duration:1}}
-               id="banner-text-img" className="w-[10vw] h-[6vw] bg-red-600 rounded-md overflow-hidden"><img className="w-full h-full object-cover" src="../public/images/banner-title-img.jpg" alt="" /></motion.div>)}
+               id="banner-text-img" className="w-[10vw] h-[6vw] bg-red-600 rounded-md overflow-hidden"><img className="w-full h-full object-cover" src="/OCHI/images/banner-title-img.jpg" alt="" /></motion.div>)}
               <h1   key={index } className="text-[white] text-[8vw] leading-[17vh] tracking-[-0.5vw] font-bold ">
             {value}
               </h1>
